@@ -1,0 +1,199 @@
+* {
+margin: 0;
+padding: 0;
+font-family: "Hanken Grotesk", sans-serif;
+color: white;
+
+}
+
+
+body {
+box-sizing: border-box;
+background-color: black;
+background-image: url(./assets/BGpage.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+
+
+#container {
+color: #ffffff;
+text-align: center;
+}
+
+img {
+
+height: 136px;
+width: 133px;
+margin-top: 50px;
+
+}
+
+h1 {
+
+margin-top: 18px;
+font-size: 26px;
+
+}
+
+a,
+a:visited,
+a:hover,
+a:active{
+    color: white;
+    text-decoration: none;
+}
+
+
+.Links a {
+    display: block;
+    width: 300px;
+    margin: 20px auto 0;
+    padding: 8px;
+
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: rgba(47, 46, 46, 0.5);
+
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.Sobre a {
+
+width: 200px;
+
+}
+
+.Sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+
+.Sobre a {
+    margin: 20px 0 0;
+    width: 200px;
+}
+
+
+footer {
+
+margin-top: 15px;
+
+}
+
+
+
+.Links a:hover {
+
+
+background-color: rgba(90, 90, 90, 0.5);
+
+
+}
+
+#estrela1, #estrela2 {
+margin-top: 20px;
+font-size: 26px;
+
+}
+
+#estrela1,
+#estrela2 {
+    transition: transform .3s ease;
+}
+
+.Sobre:hover #estrela1 {
+    transform: translateX(-22px);
+}
+
+.Sobre:hover #estrela2 {
+    transform: translateX(22px);
+}
+
+
+
+
+/* SOBRE */
+
+
+
+
+#sobre00 {
+
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#sobre02 {
+
+font-size: 60px;
+
+
+}
+
+#sobre03 {
+
+
+    font-size: 20px;
+
+}
+
+
+
+#voltar01 {
+
+ display: block;
+    width: 100px;
+    margin: 20px auto 0;
+    padding: 8px;
+    margin-top: 100px;
+
+
+
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: rgba(47, 46, 46, 0.5);
+
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+
+text-align: center;
+
+}
+
+
+
+
+.caixa-texto {
+    width: 350px;
+    height: 200px;
+
+    margin-top: 50px;
+    padding: 15px;
+
+    border: 1px solid white;
+    border-radius: 10px;
+
+    background-color: rgba(47, 46, 46, 0.5);
+
+    overflow-y: auto; 
+}
+
+.caixas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
