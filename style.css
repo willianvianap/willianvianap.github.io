@@ -8,11 +8,17 @@ color: white;
 
 
 body {
-box-sizing: border-box;
-background-color: black;
-background-image: url(./assets/BGpage.png);
-background-repeat: no-repeat;
-background-size: cover;
+    background-image: url("./assets/BGpage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url("./assets/BGpageMobile.png");
+    }
 }
 
 
