@@ -7,6 +7,13 @@ color: white;
 }
 
 
+
+body {
+  transform: scale(0.9);
+  transform-origin: top center;
+  text-align: center;
+}
+
 body {
     background-image: url("./assets/BGpage.png");
     background-position: center;
@@ -15,6 +22,23 @@ body {
     background-color: #000;
 }
 
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    background-image: url("./assets/BGpage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* Responsividade */
+
 @media (max-width: 768px) {
     body {
         background-image: url("./assets/BGpageMobile.png");
@@ -22,7 +46,7 @@ body {
 }
 
 
-
+/* Perfil */
 
 
 #container {
@@ -44,6 +68,8 @@ margin-top: 18px;
 font-size: 26px;
 
 }
+
+/* Links */
 
 a,
 a:visited,
@@ -69,6 +95,8 @@ a:active{
     text-decoration: none;
 }
 
+/* botão do Sobre */
+
 .Sobre a {
 
 width: 200px;
@@ -89,6 +117,7 @@ width: 200px;
     width: 200px;
 }
 
+/* rodapé */
 
 footer {
 
@@ -96,7 +125,7 @@ margin-top: 15px;
 
 }
 
-
+/* estilo dos links e estilização das estrelas */
 
 .Links a:hover {
 
@@ -156,7 +185,7 @@ font-size: 60px;
 
 }
 
-
+/* botão de retorno */
 
 #voltar01 {
 
@@ -181,7 +210,7 @@ text-align: center;
 }
 
 
-
+/* textos */
 
 .caixa-texto {
     width: 350px;
@@ -203,3 +232,33 @@ text-align: center;
     justify-content: center;
     gap: 20px;
 }
+
+
+
+
+
+/* PROJETOS */
+
+
+
+#projetosh1 {
+
+    text-align: center;
+    margin-top: 30px;
+    font-size: 100px;
+
+
+}
+
+#projetosh6 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+#projetosh2 {
+    text-align: center;
+}
+
+
+
